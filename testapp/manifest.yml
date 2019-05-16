@@ -1,7 +1,7 @@
---- 
-applications: 
-  - 
-    buildpacks: nodejs_buildpack
-    instances: 1
-    memory: 256M
-    name: app1851
+---
+applications:
+- name: app1851
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+  host: app1851
+  timeout: 300
