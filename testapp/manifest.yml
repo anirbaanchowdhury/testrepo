@@ -1,6 +1,7 @@
----
-applications:
-- name: app1851
-  memory: 256M
-  instances: 1
-  buildpacks:nodejs_buildpack
+--- 
+applications: 
+  - 
+    buildpacks: nodejs_buildpack
+    instances: 1
+    memory: 256M
+    name: app1851
