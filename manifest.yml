@@ -1,7 +1,7 @@
 ---
 applications:
 - name: app1851_test
-  memory: 128M
+  memory: 512M
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
   host: app1851_test
   timeout: 300
